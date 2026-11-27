@@ -31,7 +31,6 @@
 | Item | Owner | Started | Links |
 |------|-------|---------|-------|
 | | | | |
-| `SOLO-DECLARE` — declare the solo merge relationship | cold-778-e | 2026-11-27 | branch `feature/solo-declare` · N/A — claimed; design link follows |
 
 ## In Review
 > Builder ≠ sole reviewer. Awaiting merge gate.
@@ -39,6 +38,7 @@
 | Item | Reviewer | PR |
 |------|----------|----|
 | | | |
+| `SOLO-DECLARE` — declare the solo merge relationship | reviewer seat + security seat; owner GO | branch `feature/solo-declare` |
 
 ## Released
 > Deployed; awaiting outcome validation (did it move its metric?).
@@ -64,6 +64,6 @@
 ## Backlog (unrefined)
 > Validated candidates from Discover, not yet Ready. The roadmap/parking-lot lives separately (strategic altitude).
 
-- [ ] [candidate] — [intent] — [risk tag]
+- [ ] `PROTECT-SOLO` — owner SeaBrad72, right after `SOLO-DECLARE` merges and before any agent `land`/`actuate`: run `sh scripts/branch-protection-apply.sh --replace` at a terminal, confirm with `sh conformance/branch-protection.sh` and `sh scripts/sparkwright doctor` (`merge relationship: solo`); until then `main` reads solo with no server-side wall — high
 
 **Last Updated:** 2026-11-27
