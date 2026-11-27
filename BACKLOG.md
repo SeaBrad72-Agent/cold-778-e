@@ -19,7 +19,6 @@
 
 | Item | Intent (why) | Acceptance criteria | Size | Risk | Type | Owner | Links | Success metric / hypothesis |
 |------|--------------|---------------------|------|------|------|-------|-------|-----------------------------|
-| [title] | [why] | [testable criteria] | S | low | feature | [who] | [spec] | [how we'll know it worked] |
 
 > ⚠️ The placeholder row above is DELIBERATELY id-less: `| [title] |` is the exact string the gates
 > read as "this board is still the pristine template", which is what keeps a fresh adopter's first CI
@@ -39,6 +38,7 @@
 | Item | Reviewer | PR |
 |------|----------|----|
 | | | |
+| `SOLO-DECLARE` — declare the solo merge relationship | reviewer seat + security seat; owner GO | #1 (branch `feature/solo-declare`) |
 
 ## Released
 > Deployed; awaiting outcome validation (did it move its metric?).
@@ -64,6 +64,6 @@
 ## Backlog (unrefined)
 > Validated candidates from Discover, not yet Ready. The roadmap/parking-lot lives separately (strategic altitude).
 
-- [ ] [candidate] — [intent] — [risk tag]
+- [ ] `PROTECT-SOLO` — owner SeaBrad72, right after `SOLO-DECLARE` merges and before any agent `land`/`actuate`: run `sh scripts/branch-protection-apply.sh --replace` at a terminal, confirm with `sh conformance/branch-protection.sh` and `sh scripts/sparkwright doctor` (`merge relationship: solo`); until then `main` reads solo with no server-side wall — high
 
 **Last Updated:** 2026-11-27
