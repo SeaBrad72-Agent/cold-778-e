@@ -19,7 +19,6 @@
 
 | Item | Intent (why) | Acceptance criteria | Size | Risk | Type | Owner | Links | Success metric / hypothesis |
 |------|--------------|---------------------|------|------|------|-------|-------|-----------------------------|
-| [title] | [why] | [testable criteria] | S | low | feature | [who] | [spec] | [how we'll know it worked] |
 
 > ⚠️ The placeholder row above is DELIBERATELY id-less: `| [title] |` is the exact string the gates
 > read as "this board is still the pristine template", which is what keeps a fresh adopter's first CI
@@ -32,6 +31,7 @@
 | Item | Owner | Started | Links |
 |------|-------|---------|-------|
 | | | | |
+| `SOLO-DECLARE` — declare the solo merge relationship | cold-778-e | 2026-11-27 | branch `feature/solo-declare` · N/A — claimed; design link follows |
 
 ## In Review
 > Builder ≠ sole reviewer. Awaiting merge gate.
