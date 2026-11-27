@@ -1,0 +1,13 @@
+record: promotion GO (approve->execute->log)
+approved-sha: 4e8e4354fb9e8d6316cb1324df629104af69fccd
+approved-tree: 522bec516d0e5cf579263f47f901f8ba458c5d3d
+approved-by: cold-778-e [committer]
+go-by: SeaBrad72 [self-asserted]
+gate: merge
+rung: integration
+change-class: control-plane
+kit-row: SOLO-DECLARE
+scope: 1
+approval-token: "Okay, I'm giving you my go."
+basis: (none recorded)
+recorded-at: 2026-11-27T19:49:19Z
