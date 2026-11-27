@@ -1,0 +1,13 @@
+record: promotion GO (approve->execute->log)
+approved-sha: c74e6f25ab200c7660a2aa579419d0f94223de1b
+approved-tree: 0f3c592a49337e1c1f58686343b297be7dd19158
+approved-by: cold-778-e [committer]
+go-by: SeaBrad72 [self-asserted]
+gate: design
+rung: integration
+change-class: control-plane
+kit-row: (none)
+scope: branch/feature/solo-declare
+approval-token: "You have my go."
+basis: docs/architecture/2026-11-27-solo-declare-design.md
+recorded-at: 2026-11-27T17:54:07Z
