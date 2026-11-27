@@ -38,7 +38,7 @@
 | Item | Reviewer | PR |
 |------|----------|----|
 | | | |
-| `SOLO-DECLARE` — declare the solo merge relationship | reviewer seat + security seat; owner GO | branch `feature/solo-declare` |
+| `SOLO-DECLARE` — declare the solo merge relationship | reviewer seat + security seat; owner GO | #1 (branch `feature/solo-declare`) |
 
 ## Released
 > Deployed; awaiting outcome validation (did it move its metric?).
